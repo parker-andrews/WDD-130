@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root {
+    --primary-color: #4B296B   ;
+    --secondary-color: #77867F ;
+    --accent1-color: #87B37A;
+    --accent2-color: #9CE37D;
+  
+    --heading-font: "Dela Gothic One";
+    --paragraph-font: "Lato", Helvetica, sans-serif;
+  
+    --headline-color-on-white: #4B296B;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #4B296B;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #4B296B  ;
+    --nav-link-color: #4B296B;
+    --nav-background-color: #87B37A;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #4B296B;
+  }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +29,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color:white;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -34,7 +57,16 @@ main section {
 body {
     background-color: #fcfbfb; 
     color:black;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding:0;
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color:rgba(20,30,13, .7);
     color:white;
@@ -48,12 +80,20 @@ nav a:hover {
     background-color: black;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: black;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -69,15 +109,20 @@ nav a:hover {
 .msg {
     background-color: #4B296B;
     color:white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color:#4B296B;
     color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -88,4 +133,51 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
     color:white;
-}   
+}
+
+.msg h2 {
+    font-family: var(--heading-font);
+}
+
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
+
+main section img {
+    box-sizing: border-box;
+}
